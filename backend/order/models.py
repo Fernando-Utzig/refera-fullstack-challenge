@@ -4,7 +4,7 @@ from django.db import models
 
 # Create your models here.
 
-class Orders(models.Model):
+class Order(models.Model):
     id = models.AutoField(primary_key=TRUE)
     # category = models.ForeignKey(Categories)
     contact = models.CharField(max_length=100)
