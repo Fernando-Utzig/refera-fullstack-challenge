@@ -1,10 +1,10 @@
-- Provide clear instructions on how to run the application in development mode
-Just need to go to the frontend folder and run the npm start commmand.
+## Provide clear instructions on how to run the application in development mode
+Go to the frontend folder and run the **npm start** commmand.
 
-- Provide clear instructions on how the application would run in a production environment
-The application would request a login/register on the first page and would have a better interface with new pages to different types of users.
+## Provide clear instructions on how the application would run in a production environment
+The application would request a login/register on the first page and would have a better interface, with new pages and different privileges for each type of user.
 
-- Describe how you would implement an authentication layer for the web application (don't need to implement)
+## Describe how you would implement an authentication layer for the web application (don't need to implement)
 Django comes with a built-in authentication system, defining a User model and using a framework should be enough to handle the auth. I would use the JKW Token by adding the framework (djangorestframework-simplejwt) to settings.py, making the User Model and the register/login web page.
 
 - RESTful API allowing CRUD and list operations on the orders
